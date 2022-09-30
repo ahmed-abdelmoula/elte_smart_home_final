@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/store"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="Adjust Level"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+        <vn.nms.dynamic_seekbar.DynamicSeekBarView
+            android:id="@+id/temp"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            app:dsbv_infoRadius="20"
+            app:dsbv_infoTextColor="@android:color/black"
+            app:dsbv_infoTextSize="12dp"
+            app:dsbv_isHideInfo="false"
+            app:dsbv_max="100"
+            app:dsbv_progress="10"
+            app:dsbv_progressBackgroundColor="@color/gray_bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="Create Account"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_18ssp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_pseudo"
+        android:hint="Pseudo"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginLeft="25dp"
+        android:paddingLeft="@dimen/_12ssp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ic_backgroundbutton"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/register_mdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ic_backgroundbutton"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/_12ssp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/register_mdp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/ic_backgroundbutton"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/_12ssp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/activity_login_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ic_roundedbutton"
+        android:text="create"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

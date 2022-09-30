@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793950473672",
+    "project_id": "smarthouse-3e9b5",
+    "storage_bucket": "smarthouse-3e9b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793950473672:android:342be2dae10406c76c84fd",
+        "android_client_info": {
+          "package_name": "com.wakralab.pfeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793950473672-spfj6frmj646eo1079bui4am1bqm74an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyKjVOjXERm6n-CQRWfHCPHhYjIOxApA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793950473672-spfj6frmj646eo1079bui4am1bqm74an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

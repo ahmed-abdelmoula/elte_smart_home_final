@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        android:textSize="@dimen/_26ssp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/activity_user_profile_picture"
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="@dimen/_115sdp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:src="@drawable/imgdef"
+            />
+
+        <TextView
+            android:id="@+id/useremail_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="User"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginBottom="@dimen/_90sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logout_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_shapebleu"
+            android:text="LogOut"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:textColor="@color/white"
+            android:drawableRight="@drawable/ic_logout"
+            android:paddingEnd="@dimen/_40sdp"
+            android:paddingStart="@dimen/_40sdp"/>
+    </LinearLayout>
+</LinearLayout>

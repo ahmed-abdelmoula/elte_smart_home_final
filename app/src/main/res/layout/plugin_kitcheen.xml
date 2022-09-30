@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testplug"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_270sdp"
+        android:gravity="center"
+        android:background="@drawable/ic_roundedbutton2"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Maker"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/opencoffe"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/timercofee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_280sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:src="@drawable/ic_timer" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+    android:layout_width="@dimen/_180sdp"
+    android:layout_height="@dimen/_40sdp"
+    android:layout_marginStart="@dimen/_20sdp"
+    android:gravity="center"
+    android:background="@drawable/ic_roundedbutton2"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigarator"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/openref"
+            android:layout_width="@dimen/_50sdp"
+            android:checked="true"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/timerref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:src="@drawable/ic_timer" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:gravity="center"
+        android:background="@drawable/ic_roundedbutton2"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MicroWave"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/openmicrowave"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/timerwave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/ic_timer" />
+</LinearLayout>
+</LinearLayout>
